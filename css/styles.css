@@ -127,18 +127,17 @@ button {
     height: 24px;
     width: 24px;
     background-color: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .burger-button,
-.burger-button,
-.big-button:hover,
-.big-button:focus {
-    background-color: #404bbf;
-} */
 
 .burger-button-svg {
     display: block;
     fill: #2f2f37;
+}
+
+.burger-button-svg:hover,
+.burger-button-svg:focus {
+    fill: #404bbf;
 }
 
 @media screen and (min-width: 768px) {
@@ -358,8 +357,10 @@ button {
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50%;
-    padding: 8px;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-links-mobile-item:hover,
@@ -369,9 +370,13 @@ button {
 
 .social-icons {
     fill: #F4F4FD;
-    height: 24px;
     width: 24px;
+    height: 24px;
 }
+
+
+    
+
 
 
 @media screen and (min-width: 768px) {
