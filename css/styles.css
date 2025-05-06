@@ -374,11 +374,6 @@ button {
     height: 24px;
 }
 
-
-    
-
-
-
 @media screen and (min-width: 768px) {
     .mobile-menu {
         display: none;
@@ -438,6 +433,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-baner-div {
+    padding: 0;
 }
 
 .h-one-title {
@@ -919,6 +918,7 @@ background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -950,13 +950,13 @@ background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 72px;
 }
 
 .footer-social {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 76px;
 }
 
 .footer-social-text {
@@ -972,7 +972,6 @@ background-color: #FFFFFF;
 .footer-social-list {
     display: flex;
     gap: 16px;
-    margin-bottom: 76px;
 }
 
 .footer-social-icons {
@@ -1103,7 +1102,7 @@ background-color: #FFFFFF;
 
 @media screen and (min-width: 1158px) {
     .footer {
-        padding: 100px 0;
+        padding: 120px 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1111,21 +1110,19 @@ background-color: #FFFFFF;
 
     .footer-div-container {
         display: flex;
-        margin-right: 120px;
-        margin-left: 120px;
         padding: 0;
         flex-wrap: nowrap;
-        height: 112px;
     }
 
     .footer-logo-container {
         margin-right: 120px;
         max-width: 264;
-        height: 112px;
+        margin-bottom: 0;
     }
 
     .footer-social {
         margin-right: 80px;
+        margin-bottom: 0;
     }
 
     .footer-subscribe-cont {
